@@ -14,7 +14,7 @@ To run this project, the following programs are required:
 
 2POSITIVE.HMM needs to be in the same directory as FindFur
 
-## To run
+## Purposes of script
 FindFur_Extract.py
 * Purpose: Extract all potential furin cleavage sites in a FASTA file containing the protein sequences a user would like to search with the profile HMM 
 * Input: Protein sequences of interest in FASTA format and path to HMMER's hmmsearch 
@@ -24,3 +24,7 @@ FindFur_HMMERParse.py
 * Purpose: Reports whether motifs of interest are furin cleavage site hits for viral substrates 
 * Input: Previous HMMER results and motif FASTA file
 * Optional output: Text file of HMMERParse results
+
+## To run:
+1. Run protein sequences of sequences through FindFur_Extract
+2. Run outputs of FindFur_Extract into FindFur_HMMERParse
