@@ -4,7 +4,8 @@ Simple Python-based tool for extracting and predicting furin cleavage sites in e
 
 ## Project details
 This project was created on macOS Mojave Version 10.14.6 and IDLE 3.7.2. 
-Profile HMM was build from HMMER3's hmmbuild - e-value is set at 0.0023 according to optimal search settings
+Profile HMM was build from HMMER3's hmmbuild 
+E-value threshold is set at 0.0023 according to optimal search settings
 
 ## Requirements
 To run this project, the following programs are required:
